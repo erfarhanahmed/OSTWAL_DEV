@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service defination for customer po check'
+define service ZSD_CUSTOMER_SRV {
+  expose ZSD_CUSTOMER_CDS_ROOT;
+}

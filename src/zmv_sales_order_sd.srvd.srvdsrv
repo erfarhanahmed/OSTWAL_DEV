@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service defination for sale order'
+define service ZMV_SALES_ORDER_SD {
+  expose ZMV_SALES_REPORT;
+}

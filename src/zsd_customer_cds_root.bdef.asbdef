@@ -1,0 +1,16 @@
+managed;  //implementation in class zbp_sd_customer_cds_root unique;
+//strict ( 1 ) ;
+
+define behavior for ZSD_CUSTOMER_CDS_ROOT //alias <alias_name>
+persistent table zsd_customer
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+//  field ( readonly ) customer;
+//mapping for zsd_customer
+
+}

@@ -1,0 +1,17 @@
+@Metadata.layer: #CORE
+@EndUserText.label: 'Customer'
+@UI: {
+ headerInfo: { typeName: 'Customer',
+                 typeNamePlural: 'Customer',
+                 title: { type: #STANDARD, label: 'Customer_PO' } }
+                 }
+annotate entity ZSD_CUSTOMER_CDS_ROOT
+    with 
+{
+
+@UI.facet: [ { id: 'Customer', purpose: #STANDARD, type: #IDENTIFICATION_REFERENCE, label: 'Customer', position: 10 } ]
+@UI: { lineItem: [ { position: 10 } ], identification: [ { position: 10 } ], selectionField: [{ position : 10 }]}
+    customer;
+ 
+    
+}
